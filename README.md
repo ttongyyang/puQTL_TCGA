@@ -9,7 +9,7 @@ Software: vcftools version 0.1.16, plink version 1.9, PEER version 1.0, MatrixEQ
 The shell scripts 01.preprocess.sh and 02.QTL_preprocess.sh were employed to preprocess individual genotype data and promoter usage for puQTL analysis. Key variables, including principal components of the genotype, PEER factors, gender, and age, were all accounted for in preparation for identifying puQTLs.
 
 ## 2. puQTL mapping for each cancer
-The R script 2.MatrixeQTL.R was used to identify puQTLs for each tissue type. The MatrixeQTL R package was employed to test associations between genotype and promoter usage. 
+The R script 03.MatrixeQTL.R was used to identify puQTLs for each tissue type. The MatrixeQTL R package was employed to test associations between genotype and promoter usage. 
 
 ## 3. Cancer specificity analysis for puQTLs
 The 04.tissue_specific.R utilized the mash method to elucidate the heterogeneity of puQTL effect sizes across different cancer types.
